@@ -131,11 +131,12 @@ body {
     border-radius: 50px;
     font-size: 13px;
     margin-bottom: 35px;
+    border: none !important;
 }
 
 .summary_btn:hover {
     background-image: linear-gradient(hsl(249, 100%, 67%), hsl(241, 81%, 54%));
-    border: none;
+    border: none !important;
 }
 
 h4 {
