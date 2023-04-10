@@ -147,3 +147,25 @@ p {
     font-size: 15px;
     scale: 0.85;
 }
+
+@media screen and (max-width: 375px) {
+    .card_container {
+        flex-direction: column;
+        box-shadow: none;
+        height: 100dvh;
+    }
+
+    body {
+        display: block;
+    }
+
+    .card_result {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .card_summary {
+        width: 100%;
+    }
+}
